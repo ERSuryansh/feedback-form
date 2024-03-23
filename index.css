@@ -1,23 +1,23 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #c3fbeb;
+    background-color: rgb(255 ,255, 255 , 0.6);
     margin: 0;
     padding: 0;
     display: flexbox;
     justify-content: center;
 }
 H2{
-    display: flex;
-    justify-content: center;
+/*     display: flex;
+    justify-content: center; */
 }
 .container {
     /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
+    justify-content: space-around;*/
+    align-items: center; 
 
     max-width: 400px;
     margin: 50px auto;
-    background: #9fdfdc;
+    background: rgba(223, 228, 228, 0.4);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 9px 12px rgba(0, 0, 0, 0.1);
@@ -61,6 +61,6 @@ div .btn{
 }
 
 .btn :hover{
-    color: rgb(227, 25, 170);
+    color: rgb(11, 116 ,51);
     font-size: 1.3rem;
 }
