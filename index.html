@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h2>Feedback form</h2>
+    <div class="container">
+        <form action="index2.html" method="GET">
+            <!-- <form action="/submit" method="post"> -->
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="name" placeholder="Username" required />
+            </div>
+            <br />
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" required />
+            </div>
+            <br />
+
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="110" step="1" />
+            </div>
+            <br />
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" min="2000-01-01" />
+            </div>
+
+            <br />
+            
+            <br />
+
+            <!-- <div>
+                Favourit food<br /><br />
+                <div class="box">
+                    <div>
+                        <label for="banana">Banana</label>
+                        <input type="checkbox" name="banana" id="banana" />
+                    </div>
+                    <div>
+                        <label for="apple">Apple</label>
+                        <input type="checkbox" name="apple" id="apple" />
+                    </div>
+                    <div>
+                        <label for="coconut">Coconut</label>
+                        <input type="checkbox" name="coconut" id="coconut" />
+                    </div>
+                    <div>
+                        <label for="papaya">Papaya</label>
+                        <input type="checkbox" name="papaya" id="papaya" />
+                    </div>
+                    <div>
+                        <label for="banana">Banana</label>
+                        <input type="checkbox" name="banana" id="banana" />
+                    </div>
+                    <div>
+                        <label for="banana">Banana</label>
+                        <input type="checkbox" name="banana" id="banana" />
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="feedback">
+                <div class="question">
+                    <h5>1. Choose your favorite Web language:</h5>
+                    <div class="box">
+                        <div>
+                            <input type="radio" id="html" name="web_language" value="HTML" />
+                            <label for="html">HTML</label><br />
+
+                            <input type="radio" id="css" name="web_language" value="CSS" />
+                            <label for="css">CSS</label><br />
+
+                            <input type="radio" id="javascript" name="web_language" value="JavaScript" />
+                            <label for="javascript">JavaScript</label><br /><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <div class="question">
+                    <h5>2. Choose your favorite backend language:</h5>
+                    <div class="box">
+                        <div>
+                            <input type="radio" id="PYTHON" name="backend_language" value="PYTHON" />
+                            <label for="PYTHON">PYTHON</label><br />
+
+                            <input type="radio" id="PHP" name="backend_language" value="PHP" />
+                            <label for="PHP">PHP</label><br />
+
+                            <input type="radio" id="Ruby" name="backend_language" value="RUBY" />
+                            <label for="RUBY">RUBY</label><br /><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <div class="question">
+                    <h5>3. What is your preferred programming language?</h5>
+                    <div class="box">
+                        <div>
+                            <input type="radio" id="python" name="preferred_language" value="Python" />
+                            <label for="python">PYTHON</label><br />
+
+                            <input type="radio" id="java" name="preferred_language" value="Java" />
+                            <label for="java">JAVA</label><br />
+
+                            <input type="radio" id="csharp" name="preferred_language" value="C#" />
+                            <label for="csharp">C#</label><br /><br />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feedback">
+                <div class="question">
+                    <h5>4. Choose your favorite game:</h5>
+                    <div class="box">
+                        <div>
+                            <input type="radio" id="cod" name="fav_game" value="COD" />
+                            <label for="cod">COD</label><br />
+
+                            <input type="radio" id="pubg" name="fav_game" value="PUBG" />
+                            <label for="pubg">PUBG</label><br />
+
+                            <input type="radio" id="gta" name="fav_game" value="GTA" />
+                            <label for="gta">GTA</label><br /><br />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <div class="question">
+                    <h5>5. Choose your favorite Web language:</h5>
+                    <div class="box">
+                        <div>
+                            <input type="radio" id="google" name="fav_search_engine" value="Google" />
+                            <label for="google">GOOGLE</label><br />
+
+                            <input type="radio" id="yahoo" name="fav_search_engine" value="Yahoo" />
+                            <label for="yahoo">YAHOO</label><br />
+
+                            <input type="radio" id="bing" name="fav_search_engine" value="Bing" />
+                            <label for="bing">BING</label><br /><br />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password" required/>
+      </div> -->
+
+            <div class="button">
+                <button type="reset" class="btn">Reset x</button>
+                <button type="submit" class="btn">Submit x</button>
+            </div>
+        </form> 
+    </div>
+</body>
+
+</html>
